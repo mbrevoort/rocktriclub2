@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Rock Tri Club
+description: Rock Tri Club is a triathalon, multisport, running, cycling, swimming club in Castle Rock, Colorado
 ---
 {% include JB/setup %}
 
