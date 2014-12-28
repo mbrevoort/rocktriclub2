@@ -14,9 +14,8 @@ description: Rock Tri Club is a triathalon, multisport, running, cycling, swimmi
   -->
   <div class="inner">
     
-    <header>
-      <h2>Rock Tri Club</h2>
-    </header>
+    <img src="/assets/images/logo128-white.png">
+
     <p>A <strong>Multisport Club</strong> 
     <br />
     <p>Centered In Beautiful 
