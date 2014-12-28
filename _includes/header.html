@@ -1,0 +1,13 @@
+<h1 id="logo"><a href="index.html">{{ site.title }}</a></h1>
+<nav id="nav">
+  <ul>
+  {% for p in site.pages %}
+    {% if p.title and p.topnav %}
+    <li {% if page.url == p.url %} class="active" {% endif %}>
+      <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+    </li>
+    {% endif %}
+  {% endfor %}
+    <li><a href="https://ti.to/rock-tri-club" class="button special">Join</a></li>
+  </ul>
+</nav>
