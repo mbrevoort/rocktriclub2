@@ -166,6 +166,20 @@ $pattern-background-size: 25em;
 				}
 			}
 		}
+
+		&.triple {
+			&:before,
+			&:after {
+				width: 25%;
+			}
+
+			.icon.first {
+				left: -6em;
+			}
+			.icon.last {
+				left: 5em;
+			}	
+		}
 	}
 	
 	footer {

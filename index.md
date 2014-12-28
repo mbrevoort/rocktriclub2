@@ -6,7 +6,7 @@ description: Rock Tri Club is a triathalon, multisport, running, cycling, swimmi
 
 <section id="banner">  
   <div class="inner">
-    <img src="/assets/images/logo113-white.png" />
+    <img src="/assets/images/logo101-white.png" />
     <p>A <strong>Multisport Club</strong></p>
     <br />
     <p>Centered In Beautiful</p>
@@ -20,8 +20,11 @@ description: Rock Tri Club is a triathalon, multisport, running, cycling, swimmi
 </section>
 
 <article id="main">
-  <header class="special container">
-    <span class="icon fa-compass"></span>
+  <header class="special container triple">
+    <span class="icon flaticon-swimming20 first"></span>
+    <span class="icon flaticon-regular2"></span>
+    <span class="icon flaticon-running30 last"></span>
+
     <h2>Our Mission</h2>
     <p>Swim, Bike, Run.</p>
     <p>Camaraderie, Support, Enthusiasm.</p>

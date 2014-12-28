@@ -30,6 +30,14 @@
 				padding-top: 1.25em;
 			}
 		}
+
+		&.triple {
+			&:before,
+			&:after {
+				width: 27%;
+			}
+		}
+
 	}
 
 /* Section/Article */

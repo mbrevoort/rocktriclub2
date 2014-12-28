@@ -53,6 +53,13 @@ $pattern-background-size: 10em;
 				top: 1.5em;
 			}
 		}
+
+		&.triple {
+			&:before,
+			&:after {
+				width: 18%;
+			}
+		}
 		
 		p {
 			text-align: center;
