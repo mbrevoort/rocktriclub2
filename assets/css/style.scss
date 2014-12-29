@@ -109,6 +109,14 @@ $pattern-background-size: 25em;
 		&.special {
 			text-align: center;
 		}
+
+		&.rich {
+			ul {
+				margin-left: 20px;
+				list-style: inherit;
+				text-align: left;
+			}
+		}
 	}
 
 	header {
