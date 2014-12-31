@@ -182,7 +182,7 @@ $pattern-background-size: 25em;
 			}
 
 			.icon.first {
-				left: -6em;
+				left: -5em;
 			}
 			.icon.last {
 				left: 5em;
@@ -1042,4 +1042,12 @@ $pattern-background-size: 25em;
 /* Ti.to */
 .tito-badge-link {
 	display: none;
+}
+
+/* Workouts */
+.workout-list {
+	li span {
+		font-size: 0.7em;
+		color: #777;
+	}
 }

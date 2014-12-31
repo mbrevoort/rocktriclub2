@@ -14,30 +14,54 @@
         font-size: 20px;
 font-style: normal;
 margin-left: 20px;
-}.flaticon-finish:before {
+}.flaticon-excercising:before {
 	content: "\e000";
 }
-.flaticon-mountain24:before {
+.flaticon-flexions:before {
 	content: "\e001";
 }
-.flaticon-regular2:before {
+.flaticon-football102:before {
 	content: "\e002";
 }
-.flaticon-runner5:before {
+.flaticon-man271:before {
 	content: "\e003";
 }
-.flaticon-running30:before {
+.flaticon-regular2:before {
 	content: "\e004";
 }
-.flaticon-swimming20:before {
+.flaticon-runner5:before {
 	content: "\e005";
 }
-.flaticon-time13:before {
+.flaticon-running31:before {
 	content: "\e006";
 }
-.flaticon-trekking:before {
+.flaticon-silhouette66:before {
 	content: "\e007";
 }
-.flaticon-trophy45:before {
+.flaticon-skiing:before {
 	content: "\e008";
+}
+.flaticon-snowboard1:before {
+	content: "\e009";
+}
+.flaticon-swimmer9:before {
+	content: "\e00a";
+}
+.flaticon-swimming20:before {
+	content: "\e00b";
+}
+.flaticon-time13:before {
+	content: "\e00c";
+}
+.flaticon-trophy42:before {
+	content: "\e00d";
+}
+.flaticon-volleyball3:before {
+	content: "\e00e";
+}
+.flaticon-weightlifting:before {
+	content: "\e00f";
+}
+.flaticon-weightlifting3:before {
+	content: "\e010";
 }

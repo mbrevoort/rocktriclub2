@@ -1,0 +1,33 @@
+---
+layout: stripped
+title: Workouts
+topnav: true
+---
+
+
+<article id="main">
+  <header class="special container triple">
+    <span class="icon flaticon-silhouette66 first"></span>
+    <span class="icon flaticon-regular2"></span>
+    <span class="icon flaticon-running31 last"></span>
+    <h3>Workouts</h3>
+  </header>        
+  <section class="wrapper style4 container">
+    <div class="content">
+      <section>
+        
+        <ul  class="list-unstyled workout-list">
+          {% for post in site.posts %}
+          {% if post.category == "workouts" %}
+          <li>
+            {% if post.icon %}<span class="icon {{ post.icon }}"></span>{% endif %}
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            - <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+  </div>
+  </section>
+</article>
