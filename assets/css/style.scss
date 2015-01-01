@@ -892,6 +892,24 @@ $pattern-background-size: 25em;
 			margin-bottom: 2em;
 		}
 	}
+
+/* Strave */
+
+	#strava {
+		background-attachment: scroll, scroll, scroll, fixed;
+		background-color: $color-three-bg;
+		background-image: url('images/light-tl.svg'), url('images/light-tr.svg'), url('images/overlay.png'), url('../images/banner2.jpg');
+		background-position: top left, top right, top left, bottom center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: $pattern-background-size, $pattern-background-size, auto, cover;
+		color: $color-three-fg;
+		padding: 5em;
+		text-align: center;
+		
+		header {
+			margin-bottom: 2em;
+		}
+	}
 	
 /* Footer */
 
@@ -1050,4 +1068,16 @@ $pattern-background-size: 25em;
 		font-size: 0.7em;
 		color: #777;
 	}
+}
+
+.post header span {
+	font-size: 0.9em;
+}
+
+.post img.photo {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10px;
 }

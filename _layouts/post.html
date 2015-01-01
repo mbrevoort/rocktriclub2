@@ -8,10 +8,11 @@
       {% include header.html %}
       </header>
 
-		<article id="main">
+		<article id="main" class="post">
 		    <header class="special container">
 		        <h2>{{ page.title }}</h2>
 		        {% if page.icon %}<span class="icon {{ page.icon }}"></span>{% endif %}
+		        <span>{{ page.date | date: "%-d %B %Y" }}</span>
 		    </header>        
 		    <section class="wrapper style4 container">
 		        <div class="content">
