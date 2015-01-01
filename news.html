@@ -1,0 +1,31 @@
+---
+layout: stripped
+title: News
+topnav: true
+---
+
+
+<article id="main">
+  <header class="special container triple">
+    <span class="icon fa-newspaper-o"></span>
+    <h3>News</h3>
+  </header>        
+  <section class="wrapper style4 container">
+    <div class="content">
+      <section>
+        
+        <ul  class="list-unstyled workout-list">
+          {% for post in site.posts %}
+          {% if post.category == "news" %}
+          <li>
+            {% if post.icon %}<span class="icon {{ post.icon }}"></span>{% endif %}
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            - <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+  </div>
+  </section>
+</article>
