@@ -903,7 +903,8 @@ $pattern-background-size: 25em;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: $pattern-background-size, $pattern-background-size, auto, cover;
 		color: $color-three-fg;
-		padding: 5em 2em 5em 2em;
+		padding-top: 5em;
+		padding-bottom: 5em;
 		text-align: center;
 		
 		header {
@@ -913,6 +914,7 @@ $pattern-background-size: 25em;
 		iframe {
 			max-width: 600px;
 			width:100%;
+			margin: auto;
 		}
 	}
 	
