@@ -1,7 +1,7 @@
 ---
 layout: post
 category : news
-icon: fa-heart
+icon: fa-bullhorn
 title: 2015 Beginnings
 ---
 Welcome to Rock Tri Club 2015! What’s new at RTC? Our logo, our website, many new activities, but our mission remains the same. 
