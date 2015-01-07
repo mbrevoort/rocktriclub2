@@ -1,7 +1,7 @@
 ---
 layout: post
 category : workouts
-tagline: "Strength The Caitlin"
+tagline: "Strength- The Caitlin"
 tags: [strength]
 icon: flaticon-flexions
 ---
