@@ -3,7 +3,7 @@ layout: post
 category : workouts
 tags: [strength]
 icon: flaticon-flexions
-title: "Strength AMRAP 25 The Colleen"
+title: "Strength The Colleen"
 ---
 
 * 10 minute warm up
