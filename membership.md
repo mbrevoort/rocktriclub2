@@ -10,5 +10,8 @@ The Rock Tri Club was organized and created to benefit its members in the sports
 
 We are a positive group that thrives on improving as a whole. We believe that wellness is contagious, so it is our mission to share our love for the outdoors and fitness. As a member of our club, you will also become part of a community that receives discounts and services from local sponsors. Our sponsors believe in us and treat us well; we promise to make them proud. Let's TRI together!
 
-<script src='https://js.tito.io/v1' async></script>
-<tito-widget event="rock-tri-club/2015-membership"></tito-widget>
+<footer>
+	<ul class="buttons">
+		<li><a href="https://ti.to/rock-tri-club/2015-membership" class="button special">Join</a></li>
+	</ul>
+</footer>
