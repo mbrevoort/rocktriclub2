@@ -12,6 +12,6 @@ We are a positive group that thrives on improving as a whole. We believe that we
 
 <footer>
 	<ul class="buttons">
-		<li><a href="https://ti.to/rock-tri-club/2015-membership" class="button special">Join</a></li>
+		<li><a href="https://ti.to/rock-tri-club/2016-membership" class="button special">Join</a></li>
 	</ul>
 </footer>
